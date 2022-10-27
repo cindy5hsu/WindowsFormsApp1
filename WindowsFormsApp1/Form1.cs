@@ -41,6 +41,7 @@ namespace WindowsFormsApp1
             if (rows.Value <= 0 || rows.Value >10)
             {
                 MessageBox.Show("請輸入10以内的數字");
+                return;
             }
 
             //生成星號三角形
@@ -97,6 +98,7 @@ namespace WindowsFormsApp1
             if (rows01.Value <= 0 || rows01.Value > 10)
             {
                 MessageBox.Show("請輸入10以内的數字");
+                return;
             }
             //生成星號三角形
             string stars = Generatestars01(rows01.Value);
@@ -154,6 +156,7 @@ namespace WindowsFormsApp1
             if (rows02.Value <= 0 || rows02.Value > 10)
             {
                 MessageBox.Show("請輸入10以内的數字");
+                return;
             }
 
             //生成星號三角形
